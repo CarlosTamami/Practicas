@@ -35,7 +35,7 @@ Para las listar ordenadas indicamos el número del elemento con un punto:
 
 Para añadir un enlace a nuestro documento ponemos el texto del enlace entre corchetes y la url del enlace entre paréntesis:
 
-[Google](www.google.com)
+[Google](https://www.google.com)
 
 # Imagenes 
 
