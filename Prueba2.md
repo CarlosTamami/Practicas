@@ -19,18 +19,15 @@
 | Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |
 
 
-
-
-
-
-
 # Delimitadores
-*YAML(---):
+* YAML(---):
+```
 ---
 title: About Front Matter
 example:
 language: yaml
 ---
+```
 # Diferencia de Lineas 
 
 Las etiquetas de envoltura pueden ser llaves o corchetes:
@@ -40,10 +37,13 @@ Las etiquetas de envoltura pueden ser llaves o corchetes:
 - {- deletion 3 -}
 - [- deletion 4 -]
 
+# Codigo PHP
 
+```
 ---php
 $title = "About Front Matter";
 $example = array(
   'language' => "php",
 );
 ---
+```
