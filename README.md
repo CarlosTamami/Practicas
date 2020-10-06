@@ -40,3 +40,5 @@ Para añadir un enlace a nuestro documento ponemos el texto del enlace entre cor
 # Imagenes 
 
 Para incluir imágenes utilizamos el símbolo de exclamación “!” y entre corchetes el texto alternativo de la imagen seguido entre paréntesis de la url de la imagen:
+
+![animales](https://reviblog.net/wp-content/uploads/2018/06/IMG_20180608_104752.jpg)
