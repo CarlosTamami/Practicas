@@ -19,7 +19,7 @@
 | Cell 7       | Cell 8   | Cell 9        | Cell 10      | Cell 11  | Cell 12       |
 
 
-# Delimitadores
+# Delimitadores :page_facing_up:
 * YAML(---):
 ```
 ---
@@ -28,16 +28,30 @@ example:
 language: yaml
 ---
 ```
-# Diferencia de Lineas 
+* TOML ( +++):
 
-Las etiquetas de envoltura pueden ser llaves o corchetes:
+```
++++
+title = "About Front Matter"
+[example]
+language = "toml"
++++
+```
 
-- {+ addition 1 +}
-- [+ addition 2 +]
-- {- deletion 3 -}
-- [- deletion 4 -]
+* JSON ( ;;;):
 
-# Codigo PHP
+```
+;;;
+{
+  "title": "About Front Matter"
+  "example": {
+    "language": "json"
+  }
+}
+;;;
+```
+
+* PHP (---php)
 
 ```
 ---php
@@ -47,3 +61,14 @@ $example = array(
 );
 ---
 ```
+
+# Diferencia de Lineas 
+
+Las etiquetas de envoltura pueden ser llaves o corchetes:
+
+- {+ addition 1 +}
+- [+ addition 2 +]
+- {- deletion 3 -}
+- [- deletion 4 -]
+
+
